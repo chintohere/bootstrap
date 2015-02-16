@@ -33,8 +33,8 @@
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="home"><h1>Home Page</h1></div>
-    <div role="tabpanel" class="tab-pane" id="about"><h1>About me page</h1></div>
-    <div role="tabpanel" class="tab-pane" id="resume">Resume Page</div>
+    <div role="tabpanel" class="tab-pane" id="about">{% include aboutme.html %}</div>
+    <div role="tabpanel" class="tab-pane" id="resume">{% include_relative resume.html %}</div>
     <div role="tabpanel" class="tab-pane" id="contactme">Contact Me page</div>
   </div>
 
